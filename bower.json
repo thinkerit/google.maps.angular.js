@@ -1,18 +1,20 @@
 {
-    "name": "thk.google.maps.angular",
-    "version": "0.0.0",
-    "main": "./src/google.maps.js",
-    "dependencies": {
-        "angular": "1.0.7"
-    },
-    "devDependencies": {
-        "angular-mocks": "1.0.7"
-    },
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "test",
-        "tests"
-    ]
+  "name": "thk.google.maps.angular",
+  "main": "./src/google.maps.js",
+  "dependencies": {
+    "angular": "1.2.5"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.2.5"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "angular": "1.2.5"
+  }
 }
